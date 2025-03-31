@@ -12,9 +12,11 @@
 *.pch
 
 # Compiled Dynamic libraries
+*.a
 *.so
 *.dylib
-*.dll
+# *.lib
+# *.dll
 
 # Fortran module files
 *.mod
@@ -24,9 +26,25 @@
 *.lai
 *.la
 *.a
-*.lib
+# *.lib
 
 # Executables
-*.exe
+#*.exe
 *.out
 *.app
+
+# custom folders to ignore
+Debug
+/build
+/debug
+/.idea
+/.metals
+/.vs
+/out
+/Release
+/Debug
+/X64
+/.vscode
+/f*
+/cmake-build-debug*
+CMakeLists.txt.user
